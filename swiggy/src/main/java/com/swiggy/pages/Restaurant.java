@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Restaurant {
 	private WebDriverWait wait;
 
-	@FindBy(xpath = "(//div[contains(@class,'sc-dPyBCJ fJKDKr')])[1]")
+	@FindBy(xpath = "(//div[contains(@class,'sc-JrDLc kuXHzn')])[1]")
 	private WebElement firstrest;
 	
 	public Restaurant(WebDriver driver) {

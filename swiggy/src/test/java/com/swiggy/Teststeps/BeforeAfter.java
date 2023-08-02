@@ -13,7 +13,7 @@ public class BeforeAfter extends Tools{
 	
 	@After
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 
 }
